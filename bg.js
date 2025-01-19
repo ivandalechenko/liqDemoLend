@@ -26,6 +26,8 @@ SOFTWARE.
 
 // Simulation section
 
+// import * as dat from './dat.gui.min';
+
 const canvas = document.getElementsByTagName('canvas')[0];
 resizeCanvas();
 let config = {
