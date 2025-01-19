@@ -14,38 +14,54 @@
 
 
     <script src="dat.gui.min.js" type="module"></script>
-    <style>
-        * {
-            user-select: none;
-        }
 
-        html,
-        body {
-            overflow: hidden;
-            background-color: #000;
-        }
-
-        body {
-            margin: 0;
-            position: fixed;
-            width: 100%;
-            height: 100%;
-        }
-
-        canvas {
-            width: 100vw;
-            height: 100vh;
-        }
-    </style>
 </head>
 
 <body>
     <div class="bg free_img">
         <canvas></canvas>
     </div>
-    <div class="logo">
-        LIQUID CHAIN
+    <div class="app">
+        <div class="border free_img">
+            <div class="border_left"></div>
+            <div class="border_center">
+                <img src='/img/logo.svg' alt='decor'>
+            </div>
+            <div class="border_right"></div>
+        </div>
+        <div class="content">
+            <div class="content_inner">
+                <div class="content_top">
+                    <div class="content_top_content">
+                        Liquid Layer is a high-performance Layer 1 blockchain that connects fragmented ecosystems,
+                        aggregates
+                        liquidity, and builds scalable, secure solutions for real-world use
+                    </div>
+                    <img src='/img/travinka.svg' alt='decor'>
+                </div>
+                <div class="content_center">
+                    <div class="content_center_header">
+                        LIQUID CHAIN
+                    </div>
+                    <div class="content_center_subheader">
+                        HIGH-PERFORMANCE <SPAN> LAYER 1 NETWORK</SPAN> BUILT TO CONNECT ALL <SPAN> CHAINS</SPAN> AND
+                        <SPAN>ECOSYSTEMS</SPAN>-DELIVERING
+                        SEAMLESS
+                        <SPAN>SCALABILITY</SPAN> AND <SPAN>INTEROPERABILITY</SPAN>
+                    </div>
+                </div>
+                <div class="content_bot">
+                    <img src='/img/travinka.svg' alt='decor'>
+                    <div class="content_top_content">
+                        We’re here to create the river bed of Web3—one that simplifies blockchain, bridges blockchains
+                        seamlessly, and introduces practical ways to use crypto in everyday life
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+    <!-- LIQUID CHAIN -->
 
     <script type="module" src="/main.js"></script>
     <script src="./bg.js" type="module"></script>
