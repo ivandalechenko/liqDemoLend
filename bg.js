@@ -1523,8 +1523,8 @@ function correctDeltaY(delta) {
 // }
 
 function generateColor() {
-    return { r: 0.259, g: 0.831, b: 0.647 }; // Белый цвет
-    // return { r: 1.0, g: 1.0, b: 1.0 }; // Белый цвет
+    // return { r: 0.259, g: 0.831, b: 0.647 }; // Old
+    return { r: 0.737, g: 1, b: 0.031 }; // new
 }
 
 function HSVtoRGB(h, s, v) {
